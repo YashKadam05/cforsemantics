@@ -1,0 +1,56 @@
+ .bdBody {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 100px;
+ }
+
+ .bdBody .bd {
+     /* background-color: green; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 3px solid black;
+     border-radius: 20px;
+     padding: 30px 40px;
+     width: fit-content;
+
+ }
+
+ .bdBody .benef h1,
+ .bdBody .drawb h1 {
+     text-align: center;
+     font-size: 30px;
+     margin-bottom: 10px;
+ }
+
+ .bdBody .benef p,
+ .bdBody .drawb p {
+     font-size: 14px;
+     width: 220px;
+     /* background-color: red; */
+ }
+
+ .bdBody .sep {
+     background-color: black;
+     height: 170px;
+     width: 3px;
+     margin: 0px 30px;
+ }
+
+ @media (max-width:550px) {
+     .bdBody {
+         margin-top: 70px;
+     }
+
+     .bdBody .bd {
+         flex-direction: column;
+         padding: 20px 30px;
+     }
+
+     .bdBody .sep {
+         width: 170px;
+         height: 3px;
+         margin: 20px 0px;
+     }
+ }

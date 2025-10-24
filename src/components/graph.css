@@ -1,0 +1,47 @@
+.howBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.howBody h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.howBody .graph {
+    height: 280px;
+    margin-top: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.howBody img {
+    height: 480px;
+    mix-blend-mode: multiply;
+}
+
+@media (max-width:550px) {
+    .howBody {
+        margin-top: 70px;
+    }
+    .howBody img {
+        height: 210px;
+    }
+
+    .howBody .graph {
+        margin-top: 0;
+        height: 180px;
+        width: auto;
+        /* border: 1px solid black; */
+    }
+
+    .howBody h1 {
+        font-size: 30px;
+        width: 350px;
+    }
+}

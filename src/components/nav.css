@@ -1,0 +1,25 @@
+.nav {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    overflow: hidden;
+}
+
+.nav img {
+    height: 130px;
+    mix-blend-mode: multiply;
+    /* border: 2px solid black; */
+}
+
+@media (max-width:550px) {
+    .nav {
+        height: 70px;
+    }
+
+    .nav img {
+        height: 80px;
+    }
+
+}
