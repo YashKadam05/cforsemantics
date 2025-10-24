@@ -32,7 +32,7 @@ function App() {
               <Form semantics={semantics} setSemantics={setSemantics} statement={statement} setStatement={setStatement} language={language} setLanguage={setLanguage} />
               <Ws />
               {/* <Graph /> */}
-              <Benefits />
+              {/* <Benefits /> */}
               <Footer />
             </div>
 
