@@ -48,18 +48,18 @@
 }
 
 .formBody form button {
-    margin: 8px 0px;
     font-size: 15px;
-    padding: 13px 0px;
+    margin-bottom: 8px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     border: none;
     background-color: black;
     color: white;
     width: 424px;
-    /* height: 50px; */
     cursor: pointer;
 }
 
-@media (max-width:550px) {
+@media (max-width:700px) {
     .formBody{
         margin-top: 20px;
     }
@@ -89,5 +89,4 @@
     .formBody form button {
         width: 363px;
     }
-
 }

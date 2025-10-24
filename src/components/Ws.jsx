@@ -11,6 +11,7 @@ export default function Ws() {
     return (
         <>
 
+
             <div className="w" id="w1">
                 <img src={blob1} alt="" />
                 <div className="winfo">
@@ -48,11 +49,11 @@ export default function Ws() {
                 <img src={blob4} alt="" style={{ paddingRight: "20px" }} />
                 <div className="winfo">
                     <h1>Why was the problem?</h1>
-                    <p style={{ textAlign: "left"}}>Due to Lot of Statements/Lines.</p>
-                    <p style={{ textAlign: "left"}}>Used Internet but still unable to understand.</p>
-                    <p style={{ textAlign: "left"}}>Can't watch long 1 shot videos or huge playlist on YT as it will take more time.</p>
-                    <p style={{ textAlign: "left"}}>Incorrect Syntax/Arguments/Parameters/Typos can cause an Error.</p>
-                    <p style={{ textAlign: "left"}}>Tough manage bunch of Paper Notes or Bunch of CodeImages for understandings .
+                    <p style={{ textAlign: "left" }}>Due to Lot of Statements/Lines.</p>
+                    <p style={{ textAlign: "left" }}>Used Internet but still unable to understand.</p>
+                    <p style={{ textAlign: "left" }}>Can't watch long 1 shot videos or huge playlist on YT as it will take more time.</p>
+                    <p style={{ textAlign: "left" }}>Incorrect Syntax/Arguments/Parameters/Typos can cause an Error.</p>
+                    <p style={{ textAlign: "left" }}>Tough manage bunch of Paper Notes or Bunch of CodeImages for understandings .
                     </p>
                 </div>
             </div>
