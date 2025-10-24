@@ -53,7 +53,7 @@ export default function Ws() {
                     <p style={{ textAlign: "left" }}>Used Internet but still unable to understand.</p>
                     <p style={{ textAlign: "left" }}>Can't watch long 1 shot videos or huge playlist on YT as it will take more time.</p>
                     <p style={{ textAlign: "left" }}>Incorrect Syntax/Arguments/Parameters/Typos can cause an Error.</p>
-                    <p style={{ textAlign: "left" }}>Tough manage bunch of Paper Notes or Bunch of CodeImages for understandings .
+                    <p style={{ textAlign: "left" }}>Tough manage bunch of Paper Notes or Bunch of CodeImages for understandings.
                     </p>
                 </div>
             </div>
