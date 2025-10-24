@@ -90,3 +90,13 @@
         width: 363px;
     }
 }
+
+@media (max-width:400px) {
+    .formBody form input {
+        width: 300px;
+    }
+
+    .formBody form button {
+        width: 323px;
+    }
+}
