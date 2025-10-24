@@ -93,11 +93,14 @@
 }
 
 @media (max-width:400px) {
+    .formBody form {
+    width: 100px;
+}
     .formBody form input {
-        width: 300px;
+        width: 200px;
     }
 
     .formBody form button {
-        width: 323px;
+        width: 223px;
     }
 }
