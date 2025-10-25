@@ -18,8 +18,19 @@ export default function Form(props) {
 
         let aiPromt
         if(
-        event.target.language.value.toLowerCase().replace(" ","")=="python"||
-        event.target.language.value.toLowerCase().replace(" ","")=="pygame"
+        event.target.language.value.toLowerCase().replace(" ","")=="python"
+        ||event.target.language.value.toLowerCase().replace(" ","")=="pygame"
+        ||event.target.language.value.toLowerCase().replace(" ","")=="numpy"
+        ||event.target.language.value.toLowerCase().replace(" ","")=="pandas"
+        ||event.target.language.value.toLowerCase().replace(" ","")=="sklearn"
+        ||event.target.language.value.toLowerCase().replace(" ","")=="matplotlib"
+        ||event.target.language.value.toLowerCase().replace(" ","")=="seaborn"
+        ||event.target.language.value.toLowerCase().replace(" ","")=="pytorch"
+        ||event.target.language.value.toLowerCase().replace(" ","")=="scipy"
+        ||event.target.language.value.toLowerCase().replace(" ","")=="keras"
+        ||event.target.language.value.toLowerCase().replace(" ","")=="tensorflow"
+        ||event.target.language.value.toLowerCase().replace(" ","")=="django"
+        ||event.target.language.value.toLowerCase().replace(" ","")=="flask"
         ){
             aiPromt=`${event.target.statement.value} explain each word of this ${event.target.language.value.toLowerCase().replace(" ","")} statement in one line sentence don't take nextline whitespace and don't use any symbols in response except . : ;`
         }
