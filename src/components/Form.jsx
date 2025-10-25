@@ -31,6 +31,7 @@ export default function Form(props) {
         ||event.target.language.value.toLowerCase().replace(" ","")=="tensorflow"
         ||event.target.language.value.toLowerCase().replace(" ","")=="django"
         ||event.target.language.value.toLowerCase().replace(" ","")=="flask"
+        ||event.target.language.value.toLowerCase().replace(" ","")=="ruby"
         ){
             aiPromt=`${event.target.statement.value} explain each word of this ${event.target.language.value.toLowerCase().replace(" ","")} statement in one line sentence don't take nextline whitespace and don't use any symbols in response except . : ;`
         }
